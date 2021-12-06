@@ -1,0 +1,334 @@
+@import url('../font/Bree.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, *:before, *:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+/*background-color: #CDEDFC;*/
+font-family: 'Roboto', sans-serif;
+}
+
+.ultimas_not {
+border-radius: 60px 0 60px 0;
+}
+
+.ultimas_not h2 {
+margin: 0px;
+margin-bottom: 0;
+padding: 25px 30px;
+color: #06467D;
+text-shadow: none;
+font-size: 24px;
+border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.ultimas_not article {
+padding: 20px 30px;
+margin: 0 -10px;
+height: 80px;
+border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.ultimas_not article .comentarios {
+border: 2px solid rgba(102,102,102,0.2);
+width: 40px;
+height: 40px;
+line-height: 36px;
+text-align: center;
+border-radius: 20px 0 20px 0;
+color: #666;
+font-size: 18px;
+float: left;
+}
+
+.ultimas_not article .comentarios.ativo {
+border: 2px solid #4DC8E3;
+color: #06487D;
+}
+
+.ultimas_not article h3 {
+font-size: 15px;
+width: calc(100% - 116px);
+margin: 2px 0;
+margin-right: 60px;
+float: right;
+font-family: 'Roboto', sans-serif;
+color: #666666;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;  
+}
+
+.ultimas_not article:first-child h3 {
+width: calc(100% - 46px);
+margin-right: -10px;
+}
+
+.ultimas_not .more {
+background-color: #53C3D9;
+background-image: linear-gradient(210deg, #53C3D9 10%, #23ADCA 90%);
+border-radius: 0 50px 0 50px;
+padding: 20px;
+position: absolute;
+bottom: 40px;
+right: -100px;
+z-index: 99;
+width: 160px;
+height: 160px;
+}
+
+.ultimas_not .more p {
+margin: 6px;
+}
+
+.ultimas_not .more .btn {
+margin: 10px 0;
+}
+
+.ultimas_not .btn.new {
+background-color: #EEEEEE;
+border: 3px solid transparent;
+box-shadow: none;
+width: 240px;
+margin: 20px 10px;
+color: #666666;
+border-radius: 20px;
+}
+
+.ultimas_not .btn.new:hover {
+background-color: #4DC8E3;
+color: #fff;
+}
+
+.topo-reformado{
+background-image: linear-gradient(to right, #ffffff, #f2f2f2);
+}
+
+.borda{
+border-radius: 0 60px 0 60px;
+}
+
+.cadastro {
+background-color: #F5992A;
+background-image: linear-gradient(120deg, #F5992A 10%, #F0541B 90%);
+width: 350px;
+height: 284px;
+padding: 30px;
+margin-left: 0px;
+border-radius: 0 60px 0 60px;
+color: white;
+text-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+.cadastro .btn1 {
+max-width: 200px;
+background-color: white;
+border: 3px solid #fff;
+width: 100%;
+height: 40px;
+line-height: 40px;
+color: #000;
+text-align: center;
+border-radius: 20px;
+font-size: 15px;
+margin: 0px 0;
+transition: all 0.2s;
+cursor: pointer;
+}
+
+.cadastro .btn1:hover {
+background-color: transparent;
+box-shadow: inset 0 2px 10px rgba(0,0,0,.2), 0 2px 10px rgba(0,0,0,.2);
+color: #fff;
+text-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+footer {
+text-align: center;
+color: #06487D;
+font-size: 13px;
+}
+footer a{
+text-decoration:none !important;
+color:#06487D;
+}
+
+footer .dev {
+margin-top: 30px;
+}
+
+.mouse-trns{
+opacity: 0.8;
+transition: 0.2s;
+}.mouse-trns:hover{
+opacity: 1;
+transition: 0.2s;
+}
+
+.categorias {
+border-radius: 0px 60px 0px 60px;
+}
+
+.categorias h2 {
+margin: 0px;
+margin-bottom: 0;
+padding: 25px 30px;
+color: #06467D;
+text-shadow: none;
+font-size: 24px;
+border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.categorias article {
+padding: 20px 30px;
+margin: 0 -10px;
+height: 90px;
+}
+
+.categorias article .icone {
+border: 2px solid rgba(102,102,102,0.2);
+width: 40px;
+height: 40px;
+line-height: 36px;
+text-align: center;
+border-radius: 20px;
+color: #666;
+font-size: 18px;
+float: left;
+color: #707070;
+background-color: rgba(102,102,102,0.2);
+}
+
+.categorias article h3 {
+font-size: 15px;
+width: calc(100% - 116px);
+margin-right: 60px;
+float: right;
+margin-top: 10px;
+font-family: 'Roboto', sans-serif;
+color: #666666;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;  
+}
+
+.categorias article:first-child h3 {
+width: calc(100% - 46px);
+margin-right: -10px;
+}
+
+.categorias .more {
+background-color: #53C3D9;
+background-image: linear-gradient(210deg, #53C3D9 10%, #23ADCA 90%);
+border-radius: 0 50px 0 50px;
+padding: 20px;
+position: absolute;
+bottom: 40px;
+right: -100px;
+z-index: 99;
+width: 160px;
+height: 160px;
+}
+
+.categorias .more p {
+margin: 6px;
+}
+
+.categorias .more .btn {
+margin: 10px 0;
+}
+
+.categorias .btn.new {
+background-color: #EEEEEE;
+border: 3px solid transparent;
+box-shadow: none;
+width: 240px;
+margin: 20px 10px;
+color: #666666;
+border-radius: 20px;
+}
+
+.categorias .btn.new:hover {
+background-color: #4DC8E3;
+color: #fff;
+}
+
+.lertudo{
+color: #949494;
+background-color: #f0f0f0;
+font-size: 11px;
+padding: 5px;
+border: 0.1px solid #c2c2c2;
+}
+
+.titulofilme{
+margin: 0px;
+margin-bottom: 0;
+color: #06467D;
+text-shadow: none;
+font-size: 24px;
+font-weight: 500;
+}
+
+.titulo-filme{
+margin-left: 30px;
+}
+
+.elenco{
+margin-left: 30px;
+}
+
+.estrela-avaliacao{
+color: #b0b0b0;
+}
+
+
+.titulo-secao{
+font-family: 'Fjalla One', sans-serif;
+color: #06467D;
+}
+
+.seleciona{
+border-color: #2e2e2e;
+}
+
+.tit-papa{
+font-weight: 670;	
+}
+
+.data-filme{
+font-weight: 500;
+float: right;
+}
+
+.avaliacao{
+/*sem style*/
+}
+
+.entrevistas{
+background-color: #e3e3e3;
+}
+
+.icone-editorial{
+font-weight: 700;
+font-size: 20px;
+}
+
+.icon-redes{
+font-size: 2rem;
+opacity: 0.8;
+}
+
+.iconea{
+font-size: 20px;
+background-color: #f2f2f2;
+color: #878787;
+padding: 20px;
+border-radius: 90px;
+}
